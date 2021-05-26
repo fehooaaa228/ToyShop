@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	background-image: url("../img/bgToy.png");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: Roboto;
+	margin: 0px;
+	transition: 2s;
+}
+
+header {
+	background: linear-gradient(to bottom, #A260AF, #D486E5);
+	width: 100%;
+	height: 100px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 5px 0px black;
+}
+
+main {
+	background-color: white;
+	margin: auto;
+	width: 980px;
+	padding: 20px;
+	margin-top: 20px;
+	border: 1px solid #CECECE; 
+	box-shadow: 1px 1px 5px 0px grey;
+}
+
+footer {
+	height: 200px;
+	width: 100%;
+	background: linear-gradient(to top, #494747, #ACACAC);
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0px -2px 7px 0px grey;
+	text-shadow: 2px 2px 4px black;
+}
+
+p {
+	font-size: 20px;
+}
+
+h3 {
+	color: #CECECE;
+}
+
+.img1 {
+	width: 200px;
+	height: 120px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ul {
+	display: flex;
+}
+
+.li {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.h2 {
+	color: #F7BAE3;
+}
+
+.li:hover {
+	text-shadow: 2px 2px 5px black;
+}
+
+.elp{
+	width: 500px;
+	height: 346px;
+	box-shadow: 5px 5px 10px 2px grey; 
+}
+
+.toy1{
+	display: flex;
+	justify-content: space-between;
+	text-shadow: 1px 1px 3px grey;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.prices{
+	width: 400px;
+}
+
+.full {
+	display: flex;
+	background-color: red;
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px 0px grey;
+	transition: 0.2s;
+}
+
+a {
+	text-decoration: none;
+}
+
+.full:hover {
+	transform: scale(0.9);
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon {
+	width: 90px;
+	height: 90px;
+	transition: 0.3s;
+}
+
+.icon:hover {
+	transform: rotate(30deg);
+}
+
+.topbut {
+	display: flex;
+	width: 100px;
+	height: 50px;
+	background-color: #349AE1;
+	color: white;
+	box-shadow: 1px 1px 5px 0px grey;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	top: 93%;
+	left: 2%;
+}
+
